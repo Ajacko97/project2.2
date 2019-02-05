@@ -1,8 +1,9 @@
 @charset "UTF-8";
+/* import font from google */
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=latin-ext');
+
 html {
-	font-family: source-sans-pro;
-	font-style: normal;
-	font-weight: 200;
+	font-family: 'Dosis', sans-serif;
 }
 /* Body */
 body {
