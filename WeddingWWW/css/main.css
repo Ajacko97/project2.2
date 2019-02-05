@@ -36,8 +36,6 @@ nav {
 	display: grid;
 	grid-row: 2;
 	text-transform: uppercase ;
-	border-top: 1px solid #2C9AB7;
-	border-bottom: 1px solid #2C9AB7;
 }
 nav ul {
 	display: grid;
@@ -48,7 +46,7 @@ nav ul li {
 	display: grid;
 	justify-content: center;
 	color: #000;
-	font-size: 14px;
+	font-size: 24px;
 	margin-right: 35px;
 	letter-spacing: 5px;
 	font-weight: bold;
@@ -73,6 +71,11 @@ ul li a.button2 {
 	color: #000;
 	text-decoration: none;
 }
+ul li a.button2.active {
+	color: red;
+	text-decoration: none;
+}
+
 ul li a.button2:hover {
 	color: #2C9AB7;
 }
@@ -81,6 +84,12 @@ ul li a.button3 {
 	color: #000;
 	text-decoration: none;
 }
+
+ul li a.button3.active {
+	color: red;
+	text-decoration: none;
+}
+
 ul li a.button3:hover {
 	color: #2C9AB7;
 }
@@ -89,6 +98,12 @@ ul li a.button4 {
 	color: #000;
 	text-decoration: none;
 }
+
+ul li a.button4.active {
+	color: red;
+	text-decoration: none;
+}
+
 ul li a.button4:hover {
 	color: #2C9AB7;
 }
@@ -97,6 +112,12 @@ ul li a.button5 {
 	color: #000;
 	text-decoration: none;
 }
+
+ul li a.button5.active {
+	color: red;
+	text-decoration: none;
+}
+
 ul li a.button5:hover {
 	color: #2C9AB7;
 }
@@ -109,71 +130,156 @@ main {
 section.welcome {
 	display: grid;
 	grid-row: 1;
-	justify-content: center;
+	justify-content: flex-end;
 	background-image: url("");
 	height: 100%;
+	background: url("../gallery/9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.welcome p {
-	font-size: 18px;
-	margin: 20%;
-	text-align: justify;
+.welcome h1 {
+	display: grid;
+	font-size: 34px;
+	color: white;
+	margin: 100% 0 0 0;
+	padding: 0 5% 7% 0;
+	font-style: oblique;
+	text-align: center;
+	background: url("src/topimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/* Boxs for events */
-section.events {
+/* Boxs for wedding packages on the homepage */
+section.wp {
 	display: grid;
 	grid-row: 2;
 }
 
-article.box {
+article.boxwp {
 	display: grid;
 	justify-content: center;
 	text-align: center;
 }
 
-.events h1 {
+.wp h1 {
 	font-size: 24px;
 	text-align: center;
-	border-top: 1px solid #2C9AB7;
-	border-bottom: 1px solid #2C9AB7;
 	padding: 10px;
 }
 
-.box h2 {
+.boxwp h2 {
 	font-size: 20px;
 }
 
-.box1 {
-	border: 1px solid #2C9AB7;
+.boxwp p {
+	text-align: justify;
+	margin: 5px;
+}
+
+.boxwp a {
+	display: grid;
+	justify-content: center;
+	text-decoration: none;
+	color: red;
+	border: 1px solid #FF0004;
+	border-radius: 30px;
+	margin: 10px 10px;
+	padding: 5px 0;
+}
+
+.boxwp1 {
 	box-shadow: 0 0 10px 1px #8f8f8f;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-.box2 {
-	border: 1px solid #2C9AB7;
+.boxwp2 {
 	box-shadow: 0 0 10px 1px #8f8f8f;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-.box3 {
-	border: 1px solid #2C9AB7;
+.boxwp3 {
 	box-shadow: 0 0 10px 1px #8f8f8f;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-.box4 {
-	border: 1px solid #2C9AB7;
+.boxwp4 {
 	box-shadow: 0 0 10px 1px #8f8f8f;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
+
+/* Subpage with wedding packages */
+section.pack {
+	display: grid;
+	grid-row: 2;
+}
+
+article.boxpack {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+
+.pack h1 {
+	font-size: 24px;
+	text-align: center;
+	padding: 10px;
+}
+
+.pack h5 {
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+}
+
+.boxpack h2 {
+	font-size: 20px;
+}
+
+.boxpack p {
+	font-size: 18px;
+	text-align: justify;
+	margin: 10px;
+}
+
+.boxpack1 {
+	box-shadow: 0 0 10px 1px #8f8f8f;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.boxpack2 {
+	box-shadow: 0 0 10px 1px #8f8f8f;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.boxpack3 {
+	box-shadow: 0 0 10px 1px #8f8f8f;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.boxpack4 {
+	box-shadow: 0 0 10px 1px #8f8f8f;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
 /* Contact */
 article.contact {
 	display: grid;
@@ -191,6 +297,7 @@ article.contact {
 	font-size: 18px;
 	text-align: center;
 }
+
 /* Gallery */
 .row {
 	display: flex;
@@ -271,7 +378,7 @@ footer {
 
 footer p1 {
 	display: grid;
-	font-size: 12px;
+	font-size: 14px;
 	justify-content: start;
 	margin-left: 2%;
 	letter-spacing: 3px;
@@ -281,7 +388,7 @@ footer p1 {
 
 footer p2 {
 	display: grid;
-	font-size: 12px;
+	font-size: 14px;
 	justify-content: end;
 	margin-right: 2%;
 	letter-spacing: 3px;
@@ -301,8 +408,24 @@ footer p2 {
 		grid-template-columns: 1fr;
 	}
 	
-	article.box {
+	article.boxwp {
 		grid-template-columns: 1fr;
+	}
+	
+	article.boxpack {
+		grid-template-columns: 1fr;
+	}
+	
+	iframe {
+	width: 20vh;
+	height: 20vh;
+	}
+	
+	.column {
+	flex: 50%;
+	width: 50%;
+	padding: 0 5px;
+	height: 50%;
 	}
 	
 	footer {
@@ -321,8 +444,17 @@ footer p2 {
 		grid-template-columns: 1fr;
 	}
 	
-	article.box {
+	article.boxwp {
 		grid-template-columns: 1fr;
+	}
+	
+	article.boxpack {
+		grid-template-columns: 1fr;
+	}
+	
+	iframe {
+	width: 30vh;
+	height: 30vh;
 	}
 	
 	.column {
@@ -347,8 +479,17 @@ footer p2 {
 		grid-template-columns: repeat(5,1fr);
 	}
 	
-	article.box {
+	article.boxwp {
 		grid-template-columns: repeat(4,1fr);
+	}
+	
+	article.boxpack {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	iframe {
+	width: 50vh;
+	height: 30vh;
 	}
 	
 	.column {
@@ -373,8 +514,17 @@ footer p2 {
 		grid-template-columns: repeat(5,1fr);
 	}
 	
-	article.box {
+	article.boxwp {
 		grid-template-columns: repeat(4,1fr);
+	}
+	
+	article.boxpack {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	iframe {
+	width: 80vh;
+	height: 50vh;
 	}
 	
 	footer {
