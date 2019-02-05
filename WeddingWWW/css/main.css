@@ -131,8 +131,8 @@ section.welcome {
 	display: grid;
 	grid-row: 1;
 	justify-content: flex-end;
+	align-content: center;
 	background-image: url("");
-	height: 100%;
 	background: url("../gallery/9.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -143,8 +143,6 @@ section.welcome {
 	display: grid;
 	font-size: 34px;
 	color: white;
-	margin: 100% 0 0 0;
-	padding: 0 5% 7% 0;
 	font-style: oblique;
 	text-align: center;
 	background: url("src/topimg.jpg");
@@ -421,6 +419,11 @@ footer p2 {
 	height: 20vh;
 	}
 	
+	.welcome h1 {
+	margin: 60% 0 0% 0;
+	padding: 25% 5% 5% 0;
+	}
+	
 	.column {
 	flex: 50%;
 	width: 50%;
@@ -455,6 +458,11 @@ footer p2 {
 	iframe {
 	width: 30vh;
 	height: 30vh;
+	}
+	
+	.welcome h1 {
+	margin: 60% 0 0% 0;
+	padding: 25% 5% 5% 0;
 	}
 	
 	.column {
@@ -492,6 +500,11 @@ footer p2 {
 	height: 30vh;
 	}
 	
+	.welcome h1 {
+	margin: 50% 0 0% 0;
+	padding: 25% 5% 5% 0;
+	}
+	
 	.column {
 	flex: 40%;
 	width: 40%;
@@ -525,6 +538,11 @@ footer p2 {
 	iframe {
 	width: 80vh;
 	height: 50vh;
+	}
+	
+	.welcome h1 {
+	margin: 50% 0 0% 0;
+	padding: 25% 5% 5% 0;
 	}
 	
 	footer {
