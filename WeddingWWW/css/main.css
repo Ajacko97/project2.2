@@ -45,7 +45,7 @@ nav ul {
 nav ul li {
 	display: grid;
 	justify-content: center;
-	color: #000;
+	color: #fff;
 	font-size: 24px;
 	margin-right: 35px;
 	letter-spacing: 5px;
@@ -54,72 +54,83 @@ nav ul li {
 }
 /* Buttons */
 ul li a.button1 {
-	color: #000;
+	color:  #F1EFEB;
 	text-decoration: none;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
 }
 
 ul li a.button1.active {
-	color: red;
+	color: #DBC1C4;
 	text-decoration: none;
 }
 
 ul li a.button1:hover {
-	color: #2C9AB7;
+	color: #DBC1C4;
 }
 
 ul li a.button2 {
-	color: #000;
+	color: #F1EFEB;
 	text-decoration: none;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
 }
+
 ul li a.button2.active {
-	color: red;
+	color: #DBC1C4;
 	text-decoration: none;
 }
 
 ul li a.button2:hover {
-	color: #2C9AB7;
+	color: #DBC1C4;
 }
 
 ul li a.button3 {
-	color: #000;
+	color: #F1EFEB;
 	text-decoration: none;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
 }
 
 ul li a.button3.active {
-	color: red;
+	color: #DBC1C4;
 	text-decoration: none;
 }
 
 ul li a.button3:hover {
-	color: #2C9AB7;
+	color: #DBC1C4;
 }
 
 ul li a.button4 {
-	color: #000;
+	color: #F1EFEB;
 	text-decoration: none;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
 }
 
 ul li a.button4.active {
-	color: red;
+	color: #DBC1C4;
 	text-decoration: none;
 }
 
 ul li a.button4:hover {
-	color: #2C9AB7;
+	color: #DBC1C4;
 }
 
 ul li a.button5 {
-	color: #000;
+	color: #F1EFEB;
 	text-decoration: none;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
 }
 
 ul li a.button5.active {
-	color: red;
+	color: #DBC1C4;
 	text-decoration: none;
 }
 
 ul li a.button5:hover {
-	color: #2C9AB7;
+	color: #DBC1C4;
 }
 /* Main */
 main {
@@ -142,7 +153,7 @@ section.welcome {
 .welcome h1 {
 	display: grid;
 	font-size: 34px;
-	color: white;
+	color: #F1EFEB;
 	font-style: oblique;
 	text-align: center;
 	background: url("src/topimg.jpg");
@@ -163,16 +174,19 @@ article.boxwp {
 }
 
 .wp h1 {
+	color: #212129;
 	font-size: 24px;
 	text-align: center;
 	padding: 10px;
 }
 
 .boxwp h2 {
+	color: #212129;
 	font-size: 20px;
 }
 
 .boxwp p {
+	color: #212129;
 	text-align: justify;
 	margin: 5px;
 }
@@ -181,8 +195,9 @@ article.boxwp {
 	display: grid;
 	justify-content: center;
 	text-decoration: none;
-	color: red;
-	border: 1px solid #FF0004;
+	color: #DBC1C4;
+	font-weight: 600;
+	border: 2px solid #DBC1C4;
 	border-radius: 30px;
 	margin: 10px 10px;
 	padding: 5px 0;
@@ -231,21 +246,25 @@ article.boxpack {
 .pack h1 {
 	font-size: 24px;
 	text-align: center;
+	color: #212129;
 	padding: 10px;
 }
 
 .pack h5 {
 	font-size: 16px;
+	color: #212129;
 	font-style: italic;
 	text-align: center;
 }
 
 .boxpack h2 {
 	font-size: 20px;
+	color: #212129;
 }
 
 .boxpack p {
 	font-size: 18px;
+	color: #212129;
 	text-align: justify;
 	margin: 10px;
 }
@@ -288,11 +307,13 @@ article.contact {
 
 .contact h1 {
 	font-size: 24px;
+	color: #212129;
 	padding: 10px;
 }
 
 .contact p {
 	font-size: 18px;
+	color: #212129;
 	text-align: center;
 }
 
@@ -366,8 +387,7 @@ footer {
 	align-content: center;
 	text-transform: uppercase;
 	grid-row: 4;
-	color: white;
-	background-color: #8f8f8f;
+	background-color: #212129;
 	position: fixed;
 	bottom: 0;
 	min-width: 100%;
@@ -377,6 +397,7 @@ footer {
 footer p1 {
 	display: grid;
 	font-size: 14px;
+	color: #F1EFEB;
 	justify-content: start;
 	margin-left: 2%;
 	letter-spacing: 3px;
@@ -384,14 +405,20 @@ footer p1 {
 	transition: all 0.3s linear;
 }
 
-footer p2 {
+footer p2 a {
 	display: grid;
 	font-size: 14px;
+	color: #F1EFEB;
+	text-decoration: none;
 	justify-content: end;
 	margin-right: 2%;
 	letter-spacing: 3px;
 	font-weight: bold;
 	transition: all 0.3s linear;
+}
+
+footer p2 a:hover {
+	color: #DBC1C4;
 }
 /* Media Queries */
 
