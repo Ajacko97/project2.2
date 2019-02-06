@@ -425,16 +425,19 @@ footer p1 {
 	transition: all 0.3s linear;
 }
 
-footer p2 a {
+footer p2 {
 	display: grid;
 	font-size: 14px;
-	color: #F1EFEB;
-	text-decoration: none;
 	justify-content: end;
 	margin-right: 2%;
 	letter-spacing: 3px;
 	font-weight: bold;
 	transition: all 0.3s linear;
+}
+
+footer p2 a {
+	color: #F1EFEB;
+	text-decoration: none;
 }
 
 footer p2 a:hover {
