@@ -56,8 +56,8 @@ nav ul li {
 ul li a.button1 {
 	color:  #F1EFEB;
 	text-decoration: none;
-	text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 #212129, 0 1px #212129,
+      1px 0 #212129, 0 -1px #212129;
 }
 
 ul li a.button1.active {
@@ -72,8 +72,8 @@ ul li a.button1:hover {
 ul li a.button2 {
 	color: #F1EFEB;
 	text-decoration: none;
-	text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 #212129, 0 1px #212129,
+      1px 0 #212129, 0 -1px #212129;
 }
 
 ul li a.button2.active {
@@ -88,8 +88,8 @@ ul li a.button2:hover {
 ul li a.button3 {
 	color: #F1EFEB;
 	text-decoration: none;
-	text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 #212129, 0 1px #212129,
+      1px 0 #212129, 0 -1px #212129;
 }
 
 ul li a.button3.active {
@@ -104,8 +104,8 @@ ul li a.button3:hover {
 ul li a.button4 {
 	color: #F1EFEB;
 	text-decoration: none;
-	text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 #212129, 0 1px #212129,
+      1px 0 #212129, 0 -1px #212129;
 }
 
 ul li a.button4.active {
@@ -120,8 +120,8 @@ ul li a.button4:hover {
 ul li a.button5 {
 	color: #F1EFEB;
 	text-decoration: none;
-	text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 #212129, 0 1px #212129,
+      1px 0 #212129, 0 -1px #212129;
 }
 
 ul li a.button5.active {
@@ -204,31 +204,51 @@ article.boxwp {
 }
 
 .boxwp1 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
 .boxwp2 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
 .boxwp3 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
 .boxwp4 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
+}
+
+.boxwp1 a:hover {
+	border: 2px solid #212129;
+	color: #212129;
+}
+
+.boxwp2 a:hover {
+	border: 2px solid #212129;
+	color: #212129;
+}
+
+.boxwp3 a:hover {
+	border: 2px solid #212129;
+	color: #212129;
+}
+
+.boxwp4 a:hover {
+	border: 2px solid #212129;
+	color: #212129;
 }
 
 /* Subpage with wedding packages */
@@ -270,28 +290,28 @@ article.boxpack {
 }
 
 .boxpack1 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
 .boxpack2 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
 .boxpack3 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
 .boxpack4 {
-	box-shadow: 0 0 10px 1px #8f8f8f;
+	box-shadow: 0 0 10px 3px #D3D7DA;
 	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
