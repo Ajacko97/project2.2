@@ -317,6 +317,123 @@ article.boxpack {
 	border-radius: 10px;
 }
 
+/* Honeymoon*/
+section.hmex {
+	display: grid;
+	grid-row: 2;
+}
+
+article.boxhmex {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+
+.hmex h1 {
+	font-size: 24px;
+	text-align: center;
+	color: #212129;
+	padding: 10px;
+}
+
+.hmex h5 {
+	font-size: 16px;
+	color: #212129;
+	font-style: italic;
+	text-align: center;
+}
+
+.boxhmex h2 {
+	font-size: 20px;
+	color: #212129;
+}
+
+.boxhmex p {
+	font-size: 18px;
+	color: #212129;
+	text-align: justify;
+	margin: 10px;
+}
+
+.boxhmex1 {
+	box-shadow: 0 0 10px 3px #D3D7DA;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.boxhmex2 {
+	box-shadow: 0 0 10px 3px #D3D7DA;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.boxhmex3 {
+	box-shadow: 0 0 10px 3px #D3D7DA;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+section.hmeu {
+	display: grid;
+	grid-row: 2;
+}
+
+article.boxhmeu {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+
+.hmeu h1 {
+	font-size: 24px;
+	text-align: center;
+	color: #212129;
+	padding: 10px;
+}
+
+.hmeu h5 {
+	font-size: 16px;
+	color: #212129;
+	font-style: italic;
+	text-align: center;
+}
+
+.boxhmeu h2 {
+	font-size: 20px;
+	color: #212129;
+}
+
+.boxhmeu p {
+	font-size: 18px;
+	color: #212129;
+	text-align: justify;
+	margin: 10px;
+}
+
+.boxhmeu1 {
+	box-shadow: 0 0 10px 3px #D3D7DA;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.boxhmeu2 {
+	box-shadow: 0 0 10px 3px #D3D7DA;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.boxhmeu3 {
+	box-shadow: 0 0 10px 3px #D3D7DA;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
 /* Contact */
 article.contact {
 	display: grid;
@@ -464,6 +581,14 @@ footer p2 a:hover {
 		grid-template-columns: 1fr;
 	}
 	
+	article.boxhmex {
+		grid-template-columns: 1fr;
+	}
+	
+	article.boxhmeu {
+		grid-template-columns: 1fr;
+	}
+	
 	iframe {
 	width: 20vh;
 	height: 20vh;
@@ -502,6 +627,14 @@ footer p2 a:hover {
 	}
 	
 	article.boxpack {
+		grid-template-columns: 1fr;
+	}
+	
+	article.boxhmex {
+		grid-template-columns: 1fr;
+	}
+	
+	article.boxhmeu {
 		grid-template-columns: 1fr;
 	}
 	
@@ -545,6 +678,14 @@ footer p2 a:hover {
 		grid-template-columns: repeat(2,1fr);
 	}
 	
+	article.boxhmex {
+		grid-template-columns: repeat(3,1fr);
+	}
+	
+	article.boxhmeu {
+		grid-template-columns: repeat(3,1fr);
+	}
+	
 	iframe {
 	width: 50vh;
 	height: 30vh;
@@ -583,6 +724,14 @@ footer p2 a:hover {
 	
 	article.boxpack {
 		grid-template-columns: repeat(2,1fr);
+	}
+	
+	article.boxhmex {
+		grid-template-columns: repeat(3,1fr);
+	}
+	
+	article.boxhmeu {
+		grid-template-columns: repeat(3,1fr);
 	}
 	
 	iframe {
