@@ -154,7 +154,7 @@ section.welcome {
 	display: grid;
 	font-size: 34px;
 	color: #F1EFEB;
-	font-style: oblique;
+	font-style: normal;
 	text-align: center;
 	background: url("src/topimg.jpg");
     background-position: center;
